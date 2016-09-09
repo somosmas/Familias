@@ -1,0 +1,132 @@
+﻿.cabezote{
+background:#95CF00 url('../images/fam/cabezote.jpg') center no-repeat;	
+height:291px;
+margin-left:-8px;
+margin-top:-8px;
+margin-right:-8px;
+	
+}
+.body{
+	background-color: #95CF00;
+	overflow-x: hidden;
+
+
+}
+.footer{
+background:#95CF00 url('../images/fam/footer.jpg') center no-repeat;
+height:157px;
+margin-left:-8px;
+margin-right:-8px;
+margin-bottom:8px
+	
+}
+.cajaboton {
+float:left;
+width:234px;
+padding-top:6px;
+padding-bottom:6px
+}
+.cajapartic {
+float:left;
+width:200px;
+padding-top:6px;
+padding-bottom:6px
+}
+.cajaideas {
+float:left;
+width:700px;
+padding-top:6px;
+padding-bottom:6px
+}
+
+.video {
+float:left;
+width:470px;
+height:320px;
+
+}
+
+.cajas1 {
+position:relative;
+background-color:#95CF00;
+width:940px; 
+height:240px;
+display:inline;
+}
+.container{
+background-color:#95CF00;
+border:0px;
+border-collapse:collapse; 
+border-style:hidden;
+border-spacing:0px;
+border-width:0px;
+vertical-align:middle;
+border-bottom-color:#FFFFFF;
+text-align:center;
+overflow:hidden
+
+}
+.title { position: relative;
+z-index: 0;
+}
+.title:hover { background-color: transparent;
+z-index: 1;
+}
+.title span { border: 1px solid #649200;
+padding: 5px;
+position: absolute;
+text-decoration: none;
+background-color: #F5E200;
+color: #5E8424;
+width: 240px;
+text-align: left;
+visibility: hidden;
+font-size: 0.7em;
+line-height: 12px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+border-radius:12px
+}
+.title:hover span { visibility: visible;
+top: -45px;
+left: -10px;
+}
+.social{ 
+position:relative;
+vertical-align:middle;
+border:0px;
+border-width:0px
+}
+.tooltip {
+			border-bottom: 1px dotted #000000; color: #000000; outline: none;
+			cursor: help; text-decoration: none;
+			position: relative;
+			font-family:Verdana;
+			font-size:12px;
+			color:#0099FF;
+
+		}
+.tooltip span {
+			margin-left: -999em;
+			position: absolute;
+
+		}
+.tooltip:hover span {
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Verdana;
+			position: absolute; left: 1em; top: 2em; z-index: 99;
+			margin-left: 0; width: 250px;
+		}
+.tooltip:hover img {
+			border: 0; margin: -10px 0 0 -50px;
+			float: left; position: absolute;
+		}
+.tooltip:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+.classic { padding: 0.8em 1em; }
+.custom { padding: 0.5em 0.8em 0.8em 2em; }
+* html a:hover { background: transparent; }
+.help { background: #9FDAEE; border: 1px solid #2BB0D7;	
+}
